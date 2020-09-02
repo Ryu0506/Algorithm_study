@@ -27,7 +27,7 @@ string solution(vector<string> participant, vector<string> completion) {
 	return answer;
 }
 
-// + 정렬을 이용한 방법
+// 정렬을 이용한 방법
 
 #include <string>
 #include <vector>
@@ -47,5 +47,3 @@ string solution(vector<string> participant, vector<string> completion) {
 	}
 	return answer;
 }
-
-//해시를 이용한 방법 <추가 예정>
