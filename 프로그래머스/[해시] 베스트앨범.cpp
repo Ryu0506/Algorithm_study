@@ -3,7 +3,7 @@
 개념 설명 : 
 */
 
-// 내가 푼 
+// 내가 푼 방법
 #include <string>
 #include <vector>
 #include <unordered_map>
