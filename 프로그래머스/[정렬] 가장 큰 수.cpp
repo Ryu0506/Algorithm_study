@@ -16,11 +16,16 @@ string solution(vector<int> numbers) {
 	vector<string> temp;
 	string answer = "";
 	string max;
+	
 	for (auto num : numbers)
 		temp.push_back(to_string(num));
+	
 	sort(temp.begin(), temp.end(), desc);
+	
 	if (temp[0] == "0") return "0";
+	
 	for (auto num : temp)
 		answer += num;
+	
 	return answer;
 }
